@@ -22,9 +22,10 @@ p {
     background: white;
     opacity: 80%;
     border-radius: 10px;
-    bottom: 340px;
-    left: 1000px;
-    width: 150px;
+    height: 6%;
+    width: 10%;
+    top: 44%;
+    left: 65%;
 }
 
 p::before {
@@ -56,12 +57,12 @@ a {
 }
 
 #abstract-intro {
-    box-sizing: border-box;
+    display: inline-block;
     position: absolute;
-    top: 100px;
-    left: 77px;
-    height: 500px;
-    width: 60px;
+    height: 65%;
+    width: 4%;
+    top: 12%;
+    left: 5%;
     opacity: 0;
 }
 
@@ -79,12 +80,12 @@ a {
   }
 
 #environmental {
-    box-sizing: border-box;
+    display: inline-block;
     position: absolute;
-    top: 140px;
-    left: 140px;
-    height: 400px;
-    width: 120px;
+    height: 54%;
+    width: 7.5%;
+    top: 17%;
+    left: 9.3%;
     opacity: 0;
 }
 
@@ -102,12 +103,12 @@ a {
 }
 
 #BCH1 {
-    box-sizing: border-box;
+    display: inline-block;
     position: absolute;
-    top: 160px;
-    left: 260px;
-    height: 340px;
-    width: 75px;
+    height: 43%;
+    width: 5%;
+    top: 21%;
+    left: 17%;
     opacity: 0;
 }
 
@@ -125,12 +126,12 @@ a {
 }
 
 #background-res {
-    box-sizing: border-box;
+    display: inline-block;
     position: absolute;
-    top: 170px;
-    left: 1200px;
-    height: 300px;
-    width: 70px;
+    height: 43%;
+    width: 4.8%;
+    top: 21%;
+    left: 78%;
     opacity: 0;
 }
 
@@ -148,12 +149,12 @@ a {
 }
 
 #field-lab-methods {
-    box-sizing: border-box;
+    display: inline-block;
     position: absolute;
-    top: 130px;
-    left: 1275px;
-    height: 430px;
-    width: 115px;
+    height: 54%;
+    width: 7.5%;
+    top: 17%;
+    left: 83%;
     opacity: 0;
 }
 
@@ -171,12 +172,12 @@ a {
 }
 
 #sum-rec {
-    box-sizing: border-box;
+    display: inline-block;
     position: absolute;
-    top: 100px;
-    left: 1397px;
-    height: 480px;
-    width: 60px;
+    height: 65%;
+    width: 4%;
+    top: 12%;
+    left: 91%;
     opacity: 0;
 }
 

@@ -1,32 +1,38 @@
 body {
-    background: url(/img/landing-page.png) center;
-    height: 900px;
+    background: url(/img/landing-page.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 100%;
 }
 
 p {
-    box-sizing: border-box;
+    display: inline-block;
     position: absolute;
     background-color: black;
     font: bold;
     font-size: 50px;
     text-align: center;
     color: rgb(255, 255, 119);
-    bottom: 140px;
-    left: 365px;
-    width: 900px;
-    padding: 10px;
+    height: 8%;
+    width: 45%;
+    top: 47%;
+    left: 30%;
+    padding: 5px;
     border: 5px solid yellow;
     border-radius: 20px;
   }
 
-  a {
-    box-sizing: border-box;
+a {
+    display: inline-block;
     position: absolute;
     font: bold;
     font-size: 50px;
     text-align: center;
     color: rgb(255, 255, 119);
-    bottom: 70px;
-    left: 420px;
-    width: 800px;
+    height: 8%;
+    width: 45%;
+    top: 67%;
+    left: 30%;
   }
