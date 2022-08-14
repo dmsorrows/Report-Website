@@ -4,70 +4,83 @@ body {
     background-size: 100%;
 }
 
+@font-face {
+    font-family: "Press_Start_P2";
+    src: url(/fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
 #ecoregions {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 125px;
-    left: 190px;
-    height: 185px;
-    width: 570px;
+    top: 18%;
+    left: 12.5%;
+    height: 26%;
+    width: 37%;
     color: black;
-    font: bold;
-    font-size: 42px;
+    font-family: "Press_Start_P2";
+    font-size: 54px;
     text-align: center;
-    vertical-align: middle;
-    line-height: 185px;
-    opacity: 60%;
+    padding: 26px 0;
+    line-height: 60px;
+    opacity: 80%;
 }
 
 #climate {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 330px;
-    left: 190px;
-    height: 185px;
-    width: 570px;
+    top: 47%;
+    left: 12.5%;
+    height: 26%;
+    width: 37%;
     color: black;
-    font: bold;
-    font-size: 42px;
+    font-family: "Press_Start_P2";
+    font-size: 54px;
     text-align: center;
-    vertical-align: middle;
-    line-height: 185px;
-    opacity: 60%;
+    padding: 54px 0;
+    line-height: 60px;
+    opacity: 80%;
 }
 
 #geomap {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 125px;
-    left: 785px;
-    height: 185px;
-    width: 570px;
+    top: 18%;
+    left: 51%;
+    height: 26%;
+    width: 37%;
     color: black;
-    font: bold;
-    font-size: 42px;
+    font-family: "Press_Start_P2";
+    font-size: 54px;
     text-align: center;
-    vertical-align: middle;
-    line-height: 185px;
-    opacity: 60%;
+    padding: 40px 0;
+    line-height: 50px;
+    opacity: 80%;
 }
 
 #georegions {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 330px;
-    left: 785px;
-    height: 185px;
-    width: 570px;
+    top: 47%;
+    left: 51%;
+    height: 26%;
+    width: 37%;
     color: black;
-    font: bold;
-    font-size: 42px;
+    font-family: "Press_Start_P2";
+    font-size: 54px;
     text-align: center;
-    vertical-align: middle;
-    line-height: 185px;
-    opacity: 60%;
+    padding: 26px 0;
+    line-height: 60px;
+    opacity: 80%;
 }
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }

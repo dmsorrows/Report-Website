@@ -1,0 +1,104 @@
+body {
+    background: url(/img/selection1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+img {
+    position: absolute;
+    height: 57%;
+    width: auto;
+    top: 17%;
+    left: 18%;
+    opacity: 80%;
+}
+
+#bch-northeast {
+    display: inline-block;
+    position: absolute;
+    height: 25%;
+    width: 10%;
+    top: 18%;
+    left: 52%;
+    background-color: white;
+    border: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+    opacity: 80%;
+}
+
+#bch-ozarks {
+    display: inline-block;
+    position: absolute;
+    height: 25%;
+    width: 10%;
+    top: 18%;
+    left: 64%;
+    background-color: white;
+    border: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+    opacity: 90%;
+}
+
+#bch-rivervalley-SW-SE {
+    display: inline-block;
+    position: absolute;
+    height: 25%;
+    width: 10%;
+    top: 18%;
+    left: 75%;
+    background-color: white;
+    border: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+    opacity: 90%;
+}
+
+#county-histories {
+    display: inline-block;
+    position: absolute;
+    height: 5%;
+    width: 5%;
+    top: 50%;
+    left: 5%;
+    background-color: antiquewhite;
+    border: antiquewhite;
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+    opacity: 90%;
+}
+
+#bch-northeast {
+    display: inline-block;
+    position: absolute;
+    height: 25%;
+    width: 10%;
+    top: 18%;
+    left: 52%;
+    background-color: white;
+    border: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+    opacity: 90%;
+}
+
+#bch-northeast {
+    display: inline-block;
+    position: absolute;
+    height: 25%;
+    width: 10%;
+    top: 18%;
+    left: 52%;
+    background-color: white;
+    border: white;
+    padding: 5px;
+    text-align: center;
+    font-size: 13px;
+    opacity: 90%;
+}

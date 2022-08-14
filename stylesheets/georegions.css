@@ -13,7 +13,8 @@ table {
     border-collapse: collapse;
     border: 2px solid rgb(200,200,200);
     letter-spacing: 1px;
-    font-size: 0.4rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8px;
     opacity: 80%;
 }
   
@@ -40,7 +41,32 @@ tr:nth-child(even) td {
 tr:nth-child(odd) td {
     background-color: rgb(245,245,245);
 }
-  
+
+td:first-child {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#jefferson {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#collier {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#trinity {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#igneous {
+    font-size: 12px;
+    font-weight: bold;
+}
+
 caption {
     padding: 10px;
 }

@@ -7,12 +7,17 @@ body {
     height: 100%;
 }
 
+@font-face {
+  font-family: "Press_Start_P2";
+  src: url(/fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
 p {
     display: inline-block;
     position: absolute;
     background-color: black;
-    font: bold;
-    font-size: 50px;
+    font-family: "Press_Start_P2";
+    font-size: 30px;
     text-align: center;
     color: rgb(255, 255, 119);
     height: 8%;
@@ -27,8 +32,9 @@ p {
 a {
     display: inline-block;
     position: absolute;
+    font-family: "Press_Start_P2";
     font: bold;
-    font-size: 50px;
+    font-size: 30px;
     text-align: center;
     color: rgb(255, 255, 119);
     height: 8%;

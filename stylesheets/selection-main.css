@@ -12,17 +12,24 @@ body {
     background-size: 100%;
 }
 
+@font-face {
+    font-family: "Press_Start_P2";
+    src: url(/fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+  }
+  
 /*  Word Bubble */
 
 p {
     position: absolute;
     padding: 10px;
-    font-size: 13px;
+    font-family: "Press_Start_P2";
+    font-size: 9px;
+    line-height: 11px;
     color: black;
     background: white;
     opacity: 80%;
     border-radius: 10px;
-    height: 6%;
+    height: 7%;
     width: 10%;
     top: 44%;
     left: 65%;
@@ -70,10 +77,10 @@ a {
     background-color: black;
     display: none;
     color: yellow;
-    font: bold;
-    font-size: 48px;
+    font-family: "Press_Start_P2";
+    font-size: 64px;
     text-align: center;
-  }
+}
     
 #abstract-intro:hover + #abstract-intro-span {
     display: block;
@@ -93,8 +100,8 @@ a {
     background-color: black;
     display: none;
     color: yellow;
-    font: bold;
-    font-size: 48px;
+    font-family: "Press_Start_P2";
+    font-size: 64px;
     text-align: center;
   }
     
@@ -116,8 +123,8 @@ a {
     background-color: black;
     display: none;
     color: yellow;
-    font: bold;
-    font-size: 48px;
+    font-family: "Press_Start_P2";
+    font-size: 64px;
     text-align: center;
   }
     
@@ -139,8 +146,8 @@ a {
     background-color: black;
     display: none;
     color: yellow;
-    font: bold;
-    font-size: 48px;
+    font-family: "Press_Start_P2";
+    font-size: 64px;
     text-align: center;
   }
     
@@ -162,8 +169,8 @@ a {
     background-color: black;
     display: none;
     color: yellow;
-    font: bold;
-    font-size: 48px;
+    font-family: "Press_Start_P2";
+    font-size: 64px;
     text-align: center;
   }
     
@@ -185,8 +192,8 @@ a {
     background-color: black;
     display: none;
     color: yellow;
-    font: bold;
-    font-size: 48px;
+    font-family: "Press_Start_P2";
+    font-size: 64px;
     text-align: center;
   }
     
