@@ -23,16 +23,16 @@ p {
     position: absolute;
     padding: 10px;
     font-family: "Press_Start_P2";
-    font-size: 9px;
-    line-height: 11px;
+    font-size: 10px;
+    line-height: 1rem;
     color: black;
     background: white;
     opacity: 80%;
     border-radius: 10px;
-    height: 7%;
-    width: 10%;
-    top: 44%;
-    left: 65%;
+    height: 9%;
+    width: 9%;
+    top: 47%;
+    left: 67%;
 }
 
 p::before {

@@ -9,14 +9,13 @@ body {
     src: url(/fonts/Press_Start_2P/PressStart2P-Regular.ttf);
 }
 
-div {
+p {
     display: inline-block;
     position: absolute;
     color: yellow;
     font-family: "Press_Start_P2";
-    font-size: 40px;
-    top: 3%;
-    left: 3%;
+    font-size: 36px;
+    left: 7%;
     text-align: center;
 }
 
@@ -56,3 +55,28 @@ a:visited { text-decoration: none; color: black;}
 a:hover { text-decoration: none; color: black;}
 
 a:active { text-decoration: none; color: black;}
+
+img {
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    height: 13%;
+    width: auto;
+}
+
+span {
+    display: none;
+    position: absolute;
+    top: 27%;
+    left: 1%;
+    width: 8%;
+    color: white;
+    font-family: "Press_Start_P2";
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+    
+img:hover + span {
+    display: block;
+}

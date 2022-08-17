@@ -14,31 +14,42 @@ body {
 
 p {
     display: inline-block;
+    box-sizing: border-box;
     position: absolute;
     background-color: black;
     font-family: "Press_Start_P2";
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     color: rgb(255, 255, 119);
-    height: 8%;
+    height: 9.5%;
     width: 45%;
-    top: 47%;
+    top: 49%;
     left: 30%;
-    padding: 5px;
+    padding: 20px 0px;
     border: 5px solid yellow;
     border-radius: 20px;
   }
 
 a {
     display: inline-block;
+    box-sizing: border-box;
     position: absolute;
     font-family: "Press_Start_P2";
     font: bold;
-    font-size: 30px;
+    font-size: 48px;
     text-align: center;
     color: rgb(255, 255, 119);
     height: 8%;
-    width: 45%;
-    top: 67%;
-    left: 30%;
+    width: 50%;
+    top: 70%;
+    left: 28%;
+    line-height: 4rem;
   }
+  
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }

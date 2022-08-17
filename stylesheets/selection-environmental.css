@@ -9,6 +9,17 @@ body {
     src: url(/fonts/Press_Start_2P/PressStart2P-Regular.ttf);
 }
 
+p {
+    box-sizing: border-box;
+    position: absolute;
+    color: yellow;
+    font-family: "Press_Start_P2";
+    font-size: 32px;
+    top: 0%;
+    left: 28%;
+    text-align: center;
+}
+
 #ecoregions {
     box-sizing: border-box;
     position: absolute;
@@ -19,10 +30,12 @@ body {
     width: 37%;
     color: black;
     font-family: "Press_Start_P2";
-    font-size: 54px;
+    font-size: 32px;
     text-align: center;
-    padding: 26px 0;
-    line-height: 60px;
+    padding: 68px 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 2.5rem;
     opacity: 80%;
 }
 
@@ -36,10 +49,12 @@ body {
     width: 37%;
     color: black;
     font-family: "Press_Start_P2";
-    font-size: 54px;
+    font-size: 32px;
     text-align: center;
-    padding: 54px 0;
-    line-height: 60px;
+    padding: 88px 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 2.5rem;
     opacity: 80%;
 }
 
@@ -53,10 +68,12 @@ body {
     width: 37%;
     color: black;
     font-family: "Press_Start_P2";
-    font-size: 54px;
+    font-size: 32px;
     text-align: center;
-    padding: 40px 0;
-    line-height: 50px;
+    padding: 68px 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 2.5rem;
     opacity: 80%;
 }
 
@@ -70,10 +87,12 @@ body {
     width: 37%;
     color: black;
     font-family: "Press_Start_P2";
-    font-size: 54px;
+    font-size: 32px;
     text-align: center;
-    padding: 26px 0;
-    line-height: 60px;
+    padding: 68px 20px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 2.5rem;
     opacity: 80%;
 }
 
@@ -84,3 +103,28 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
+
+img {
+    position: absolute;
+    top: 40%;
+    left: 92%;
+    height: 13%;
+    width: auto;
+}
+
+span {
+    display: none;
+    position: absolute;
+    top: 35%;
+    left: 91%;
+    width: 8%;
+    color: white;
+    font-family: "Press_Start_P2";
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+    
+img:hover + span {
+    display: block;
+}

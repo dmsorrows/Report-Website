@@ -10,95 +10,192 @@ img {
     width: auto;
     top: 17%;
     left: 18%;
+    border: 5px solid black;
     opacity: 80%;
+}
+@font-face {
+    font-family: "Press_Start_P2";
+    src: url(/fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+p {
+    box-sizing: border-box;
+    position: absolute;
+    color: yellow;
+    font-family: "Press_Start_P2";
+    font-size: 32px;
+    top: 0%;
+    left: 28%;
+    text-align: center;
 }
 
 #bch-northeast {
-    display: inline-block;
+    box-sizing: border-box;
     position: absolute;
-    height: 25%;
-    width: 10%;
-    top: 18%;
-    left: 52%;
     background-color: white;
-    border: white;
-    padding: 5px;
+    top: 18%;
+    left: 51%;
+    height: 26%;
+    width: 12%;
+    color: black;
+    font-family: "Press_Start_P2";
+    font-size: 24px;
     text-align: center;
-    font-size: 13px;
+    padding: 32px 5px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 2rem;
     opacity: 80%;
 }
 
 #bch-ozarks {
-    display: inline-block;
+    box-sizing: border-box;
     position: absolute;
-    height: 25%;
-    width: 10%;
-    top: 18%;
-    left: 64%;
     background-color: white;
-    border: white;
-    padding: 5px;
+    top: 18%;
+    left: 63.5%;
+    height: 26%;
+    width: 12%;
+    color: black;
+    font-family: "Press_Start_P2";
+    font-size: 24px;
     text-align: center;
-    font-size: 13px;
-    opacity: 90%;
+    padding: 32px 5px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 2rem;
+    opacity: 80%;
 }
 
 #bch-rivervalley-SW-SE {
-    display: inline-block;
+    box-sizing: border-box;
     position: absolute;
-    height: 25%;
-    width: 10%;
-    top: 18%;
-    left: 75%;
     background-color: white;
-    border: white;
-    padding: 5px;
+    top: 18%;
+    left: 76%;
+    height: 26%;
+    width: 13%;
+    color: black;
+    font-family: "Press_Start_P2";
+    font-size: 10px;
     text-align: center;
-    font-size: 13px;
-    opacity: 90%;
+    padding: 60px 3px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    opacity: 80%;
+}
+
+#bch-ToT {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+    top: 47%;
+    left: 51%;
+    height: 26%;
+    width: 18%;
+    color: black;
+    font-family: "Press_Start_P2";
+    font-size: 24px;
+    text-align: center;
+    padding: 42px 5px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 2rem;
+    opacity: 80%;
+}
+
+#bch-ToT-tribes {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+    top: 47%;
+    left: 71%;
+    height: 26%;
+    width: 17%;
+    color: black;
+    font-family: "Press_Start_P2";
+    font-size: 28px;
+    text-align: center;
+    padding: 44px 5px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 2rem;
+    opacity: 80%;
 }
 
 #county-histories {
-    display: inline-block;
+    box-sizing: border-box;
     position: absolute;
-    height: 5%;
-    width: 5%;
-    top: 50%;
-    left: 5%;
-    background-color: antiquewhite;
-    border: antiquewhite;
-    padding: 5px;
+    background-color: white;
+    top: 40%;
+    left: 5.2%;
+    height: 11%;
+    width: 6%;
+    color: black;
+    font-family: "Press_Start_P2";
+    font-size: 10px;
     text-align: center;
-    font-size: 13px;
-    opacity: 90%;
+    padding: 5px 5px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 1rem;
+    opacity: 100%;
 }
 
-#bch-northeast {
-    display: inline-block;
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+#arrow-left {
     position: absolute;
+    top: 33%;
+    left: 0%;
     height: 25%;
-    width: 10%;
-    top: 18%;
-    left: 52%;
-    background-color: white;
-    border: white;
-    padding: 5px;
-    text-align: center;
-    font-size: 13px;
-    opacity: 90%;
+    width: auto;
+    border: none;
+    opacity: 100%;
 }
 
-#bch-northeast {
-    display: inline-block;
+#arrow-left-span {
     position: absolute;
-    height: 25%;
-    width: 10%;
-    top: 18%;
-    left: 52%;
-    background-color: white;
-    border: white;
-    padding: 5px;
+    top: 43%;
+    left: 3.5%;
+    width: 8%;
+    color: black;
+    font-family: "Press_Start_P2";
+    font-size: 10px;
     text-align: center;
-    font-size: 13px;
-    opacity: 90%;
+    line-height: 1rem;
+  }
+
+#arrow-right {
+    position: absolute;
+    top: 40%;
+    left: 92%;
+    height: 13%;
+    width: auto;
+    border: none;
+    opacity: 100%;
+}
+
+#arrow-right-span {
+    display: none;
+    position: absolute;
+    top: 35%;
+    left: 91%;
+    width: 8%;
+    color: white;
+    font-family: "Press_Start_P2";
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+    
+#arrow-right:hover + #arrow-right-span {
+    display: block;
 }

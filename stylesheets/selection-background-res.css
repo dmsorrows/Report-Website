@@ -3,3 +3,219 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+@font-face {
+    font-family: "Press_Start_P2";
+    src: url(/fonts/Press_Start_2P/PressStart2P-Regular.ttf);
+}
+
+p {
+    box-sizing: border-box;
+    position: absolute;
+    color: yellow;
+    font-family: "Press_Start_P2";
+    font-size: 32px;
+    top: 0%;
+    left: 34%;
+    text-align: center;
+}
+
+#all-reports {
+    display: inline-block;
+    position: absolute;
+    background-color: black;
+    padding: 10px 0px;
+    border: 5px solid yellow;
+    border-radius: 20px;
+    color: yellow;
+    font-family: "Press_Start_P2";
+    font-size: 28px;
+    top: 19%;
+    left: 13%;
+    width: 36%;
+    text-align: center;
+    line-height: 2rem;
+}
+
+#background-only {
+    display: inline-block;
+    position: absolute;
+    background-color: black;
+    padding: 10px 0px;
+    border: 5px solid yellow;
+    border-radius: 20px;
+    color: yellow;
+    font-family: "Press_Start_P2";
+    font-size: 28px;
+    top: 19%;
+    left: 51%;
+    width: 36%;
+    text-align: center;
+    line-height: 2rem;
+}
+
+#AMASDA-sites {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+    top: 38%;
+    left: 12.5%;
+    height: 35%;
+    width: 12%;
+    color: black;
+    font-family: "Press_Start_P2";
+    font-size: 18px;
+    text-align: center;
+    padding: 60px 5px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 2rem;
+    opacity: 80%;
+}
+
+#h-props-cell-tower {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+    top: 38%;
+    left: 25%;
+    height: 35%;
+    width: 12%;
+    color: black;
+    font-family: "Press_Start_P2";
+    font-size: 18px;
+    text-align: center;
+    padding: 60px 5px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 2rem;
+    opacity: 80%;
+}
+
+#h-props-g-reports {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+    top: 38%;
+    left: 37.5%;
+    height: 35%;
+    width: 12%;
+    color: black;
+    font-family: "Press_Start_P2";
+    font-size: 18px;
+    text-align: center;
+    padding: 76px 5px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 2rem;
+    opacity: 80%;
+}
+
+#AMASDA-projects {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+    top: 38%;
+    left: 51%;
+    height: 35%;
+    width: 8.5%;
+    color: black;
+    font-family: "Press_Start_P2";
+    font-size: 12px;
+    text-align: center;
+    padding: 76px 5px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    opacity: 80%;
+}
+
+#improvements-glo {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+    top: 38%;
+    left: 60.5%;
+    height: 35%;
+    width: 8.5%;
+    color: black;
+    font-family: "Press_Start_P2";
+    font-size: 12px;
+    text-align: center;
+    padding: 100px 5px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    opacity: 80%;
+}
+
+#improvements-usgs {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+    top: 38%;
+    left: 70.5%;
+    height: 35%;
+    width: 8.5%;
+    color: black;
+    font-family: "Press_Start_P2";
+    font-size: 12px;
+    text-align: center;
+    padding: 76px 5px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    opacity: 80%;
+}
+
+#background-ToT {
+    box-sizing: border-box;
+    position: absolute;
+    background-color: white;
+    top: 38%;
+    left: 79.5%;
+    height: 35%;
+    width: 8.5%;
+    color: black;
+    font-family: "Press_Start_P2";
+    font-size: 16px;
+    text-align: center;
+    padding: 100px 5px;
+    border: 5px solid black;
+    border-radius: 20px;
+    line-height: 1.5rem;
+    opacity: 80%;
+}
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
+
+img {
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    height: 13%;
+    width: auto;
+}
+
+span {
+    display: none;
+    position: absolute;
+    top: 35%;
+    left: 1%;
+    width: 8%;
+    color: white;
+    font-family: "Press_Start_P2";
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5rem;
+  }
+    
+img:hover + span {
+    display: block;
+}
