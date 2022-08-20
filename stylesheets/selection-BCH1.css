@@ -6,9 +6,9 @@ body {
 
 img {
     position: absolute;
-    height: 57%;
+    height: 49%;
     width: auto;
-    top: 17%;
+    top: 16%;
     left: 18%;
     border: 5px solid black;
     opacity: 80%;
@@ -23,9 +23,9 @@ p {
     position: absolute;
     color: yellow;
     font-family: "Press_Start_P2";
-    font-size: 32px;
+    font-size: 34px;
     top: 0%;
-    left: 28%;
+    left: 30%;
     text-align: center;
 }
 
@@ -33,9 +33,9 @@ p {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 18%;
+    top: 16%;
     left: 51%;
-    height: 26%;
+    height: 24%;
     width: 12%;
     color: black;
     font-family: "Press_Start_P2";
@@ -52,9 +52,9 @@ p {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 18%;
+    top: 16%;
     left: 63.5%;
-    height: 26%;
+    height: 24%;
     width: 12%;
     color: black;
     font-family: "Press_Start_P2";
@@ -71,9 +71,9 @@ p {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 18%;
+    top: 16%;
     left: 76%;
-    height: 26%;
+    height: 24%;
     width: 13%;
     color: black;
     font-family: "Press_Start_P2";
@@ -90,9 +90,9 @@ p {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 47%;
+    top: 43%;
     left: 51%;
-    height: 26%;
+    height: 23%;
     width: 18%;
     color: black;
     font-family: "Press_Start_P2";
@@ -109,9 +109,9 @@ p {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 47%;
+    top: 43%;
     left: 71%;
-    height: 26%;
+    height: 23%;
     width: 17%;
     color: black;
     font-family: "Press_Start_P2";
@@ -153,9 +153,9 @@ a:active { text-decoration: none; }
 
 #arrow-left {
     position: absolute;
-    top: 33%;
+    top: 29%;
     left: 0%;
-    height: 25%;
+    height: 24%;
     width: auto;
     border: none;
     opacity: 100%;
@@ -163,8 +163,8 @@ a:active { text-decoration: none; }
 
 #arrow-left-span {
     position: absolute;
-    top: 43%;
-    left: 3.5%;
+    top: 38.7%;
+    left: 4%;
     width: 8%;
     color: black;
     font-family: "Press_Start_P2";
@@ -175,7 +175,7 @@ a:active { text-decoration: none; }
 
 #arrow-right {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 92%;
     height: 13%;
     width: auto;
@@ -186,7 +186,7 @@ a:active { text-decoration: none; }
 #arrow-right-span {
     display: none;
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 91%;
     width: 8%;
     color: white;

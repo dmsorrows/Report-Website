@@ -14,17 +14,17 @@ p {
     position: absolute;
     color: yellow;
     font-family: "Press_Start_P2";
-    font-size: 36px;
-    left: 7%;
+    font-size: 34px;
+    left: 11%;
     text-align: center;
 }
 
 table {
     display: inline-block;
     position: absolute;
-    height: 57%;
+    height: 51%;
     width: 76.5%;
-    top: 17%;
+    top: 16%;
     left: 12%;
     border-collapse: collapse;
     border: 2px solid rgb(200,200,200);
@@ -35,7 +35,7 @@ table {
   
 td {
     border: 1px solid rgb(190,190,190);
-    padding: 34.1px 8px;
+    padding: 33.9px 8px;
     text-align: center;
     font-family: "Press_Start_P2";
 }
@@ -58,7 +58,7 @@ a:active { text-decoration: none; color: black;}
 
 img {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 1%;
     height: 13%;
     width: auto;
@@ -67,7 +67,7 @@ img {
 span {
     display: none;
     position: absolute;
-    top: 27%;
+    top: 23%;
     left: 1%;
     width: 8%;
     color: white;

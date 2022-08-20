@@ -22,10 +22,10 @@ p {
     text-align: center;
     color: rgb(255, 255, 119);
     height: 9.5%;
-    width: 45%;
-    top: 49%;
+    width: 46%;
+    top: 51%;
     left: 30%;
-    padding: 20px 0px;
+    padding: 23px 0px;
     border: 5px solid yellow;
     border-radius: 20px;
   }
@@ -42,7 +42,7 @@ a {
     height: 8%;
     width: 50%;
     top: 70%;
-    left: 28%;
+    left: 26%;
     line-height: 4rem;
   }
   

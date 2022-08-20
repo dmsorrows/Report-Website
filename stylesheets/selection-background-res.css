@@ -14,7 +14,7 @@ p {
     position: absolute;
     color: yellow;
     font-family: "Press_Start_P2";
-    font-size: 32px;
+    font-size: 34px;
     top: 0%;
     left: 34%;
     text-align: center;
@@ -30,7 +30,7 @@ p {
     color: yellow;
     font-family: "Press_Start_P2";
     font-size: 28px;
-    top: 19%;
+    top: 17%;
     left: 13%;
     width: 36%;
     text-align: center;
@@ -47,7 +47,7 @@ p {
     color: yellow;
     font-family: "Press_Start_P2";
     font-size: 28px;
-    top: 19%;
+    top: 17%;
     left: 51%;
     width: 36%;
     text-align: center;
@@ -58,9 +58,9 @@ p {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 38%;
+    top: 34%;
     left: 12.5%;
-    height: 35%;
+    height: 32%;
     width: 12%;
     color: black;
     font-family: "Press_Start_P2";
@@ -77,9 +77,9 @@ p {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 38%;
+    top: 34%;
     left: 25%;
-    height: 35%;
+    height: 32%;
     width: 12%;
     color: black;
     font-family: "Press_Start_P2";
@@ -96,9 +96,9 @@ p {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 38%;
+    top: 34%;
     left: 37.5%;
-    height: 35%;
+    height: 32%;
     width: 12%;
     color: black;
     font-family: "Press_Start_P2";
@@ -115,9 +115,9 @@ p {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 38%;
+    top: 34%;
     left: 51%;
-    height: 35%;
+    height: 32%;
     width: 8.5%;
     color: black;
     font-family: "Press_Start_P2";
@@ -134,9 +134,9 @@ p {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 38%;
+    top: 34%;
     left: 60.5%;
-    height: 35%;
+    height: 32%;
     width: 8.5%;
     color: black;
     font-family: "Press_Start_P2";
@@ -153,9 +153,9 @@ p {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 38%;
+    top: 34%;
     left: 70.5%;
-    height: 35%;
+    height: 32%;
     width: 8.5%;
     color: black;
     font-family: "Press_Start_P2";
@@ -172,9 +172,9 @@ p {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 38%;
+    top: 34%;
     left: 79.5%;
-    height: 35%;
+    height: 32%;
     width: 8.5%;
     color: black;
     font-family: "Press_Start_P2";
@@ -197,7 +197,7 @@ a:active { text-decoration: none; }
 
 img {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 1%;
     height: 13%;
     width: auto;
@@ -206,7 +206,7 @@ img {
 span {
     display: none;
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 1%;
     width: 8%;
     color: white;

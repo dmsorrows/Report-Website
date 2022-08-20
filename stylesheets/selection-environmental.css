@@ -14,9 +14,9 @@ p {
     position: absolute;
     color: yellow;
     font-family: "Press_Start_P2";
-    font-size: 32px;
+    font-size: 34px;
     top: 0%;
-    left: 28%;
+    left: 31%;
     text-align: center;
 }
 
@@ -24,9 +24,9 @@ p {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 18%;
+    top: 16%;
     left: 12.5%;
-    height: 26%;
+    height: 23%;
     width: 37%;
     color: black;
     font-family: "Press_Start_P2";
@@ -43,9 +43,9 @@ p {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 47%;
+    top: 43%;
     left: 12.5%;
-    height: 26%;
+    height: 23%;
     width: 37%;
     color: black;
     font-family: "Press_Start_P2";
@@ -62,9 +62,9 @@ p {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 18%;
+    top: 16%;
     left: 51%;
-    height: 26%;
+    height: 23%;
     width: 37%;
     color: black;
     font-family: "Press_Start_P2";
@@ -81,9 +81,9 @@ p {
     box-sizing: border-box;
     position: absolute;
     background-color: white;
-    top: 47%;
+    top: 43%;
     left: 51%;
-    height: 26%;
+    height: 23%;
     width: 37%;
     color: black;
     font-family: "Press_Start_P2";
@@ -106,7 +106,7 @@ a:active { text-decoration: none; }
 
 img {
     position: absolute;
-    top: 40%;
+    top: 35%;
     left: 92%;
     height: 13%;
     width: auto;
@@ -115,7 +115,7 @@ img {
 span {
     display: none;
     position: absolute;
-    top: 35%;
+    top: 30%;
     left: 91%;
     width: 8%;
     color: white;
